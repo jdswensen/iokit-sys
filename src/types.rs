@@ -110,7 +110,7 @@ pub const kNanosecondScale:   c_int = 1;
 pub const kMicrosecondScale:  c_int = 1000;
 pub const kMillisecondScale:  c_int = 1000 * 1000;
 pub const kSecondScale:       c_int = 1000 * 1000 * 1000;
-pub const kTickScale:         c_int = (kSecondScale / 100);
+pub const kTickScale:         c_int = kSecondScale / 100;
 
 pub const kIOConnectMethodVarOutputSize: c_int = -3;
 
